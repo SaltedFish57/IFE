@@ -1,0 +1,186 @@
+body {
+	font-family: "Microsoft YaHei", sans-serif;
+	margin: 0;
+	background-color: #dedede;
+}
+
+/*导航条样式*/
+nav {
+	background-color: #333333;
+}
+
+img#logo {
+	position: relative;
+	left: 40px;
+	height: 50px;
+}
+
+nav ul#navigation {
+	display: inline-block;
+	list-style-position: inside;
+	float: right;
+}
+
+nav ul#navigation li {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+
+nav ul#navigation li a {
+	color: white;
+	text-decoration:none;
+}
+
+nav ul#navigation li a:hover {
+	color: gray;
+}
+
+/*文章区样式*/
+article,
+aside {
+	background: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px 2px black;
+}
+
+h1 {
+	color: black;
+	font-size: 2em;
+}
+
+h2 {
+	color: gray;
+	font-size: 1em;
+}
+
+p.info {
+	color: #999;
+	font-size: 0.8em;
+}
+
+article ul {
+	list-style-type: none;
+}
+
+figure {
+	width: 170px;
+	padding: 10px;
+	margin-left: 10px;
+	border: thin solid gray;
+	text-align: center;
+	display: inline-block;
+}
+
+figure img {
+	width: 150px;
+	margin-top: 10px;
+}
+
+article ol {
+	font-weight: bold;
+}
+
+p#notice {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+/*表格样式*/
+table {
+	border: 2px solid #dedede;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table thead {
+	background-color: #333;
+	color: white;
+}
+
+table td,
+table th {
+	border:2px solid #dedede;
+}
+
+tr#summary {
+	background-color: #dedede;
+	font-weight: bold;
+}
+/*侧栏样式*/
+aside header {
+	border-left: 4px solid #dedede;
+	padding: 2px 0px 2px 15px;
+	margin-bottom: 10px;
+}
+
+aside header h1 {
+	font-size: 1em;
+}
+
+form {
+	font-size: small;
+}
+
+.table {
+	display: table;
+}
+
+.tableRow {
+	display: table-row;
+	padding-bottom: 10px;
+}
+
+.tableRow label:first-child {
+	display: table-cell;
+	width: 200px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.note {
+	color: gray;
+}
+
+div textarea {
+	vertical-align: top;
+	height: 100px;
+	width: 200px;
+}
+
+button {
+	background-color: #3355d0;
+	color: white;
+	border-radius: 10px;
+	height: 35px;
+	width: 100%;
+	margin-top: 10px
+}
+/*页脚*/
+footer {
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 20px 0px;
+	background-color: black;
+	width: 100%;
+}
+
+.main {
+	position: relative;
+	margin: 20px;
+	height: 2450px;
+}
+
+.left {
+	position: absolute;
+	right: 390px;
+}
+
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 370px;
+}
+
